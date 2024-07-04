@@ -1,0 +1,4 @@
+game,date,host,guest,host score,guest score
+1,Dec 11,Barca,Real,3,4
+2,Dec 12,Juve,Inter,0,0
+3,Jan 13,Barca,Milan,4,1

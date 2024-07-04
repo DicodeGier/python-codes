@@ -1,0 +1,7 @@
+Ash;Robert;45%
+Bob;Johnson;70%
+Christina;Hammond;80%
+David;Perez;82%
+Christin;Malek;10%
+Bob;Dylan;70%
+Tom;Brady;32%

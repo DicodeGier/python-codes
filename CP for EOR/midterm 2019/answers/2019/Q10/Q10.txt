@@ -1,0 +1,39 @@
+Game 0
+Dec 09
+Barca 4 0 PSV
+
+Game 1
+Dec 11
+Barca 3 4 Real
+
+Game 2
+Dec 12
+Juve 0 0 Inter
+
+Game 3
+Jan 13
+Barca 4 1 Milan
+
+Game 4
+Jan 15
+Inter 5 4 Juve 
+
+Game 5
+Jan 16
+Inter 4 4 Real 
+
+Game 6
+Feb 1
+PSV 2 2 Ajax 
+
+Game 7
+Feb 19
+Ajax 2 1 Feyenoord 
+
+Game 8
+Feb 21
+PSV 3 3 Feyenoord 
+
+Game 9
+Feb 25
+Feyenoord 2 1 Ajax 

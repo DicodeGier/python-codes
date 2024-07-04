@@ -1,0 +1,5 @@
+chicken,4,9%
+apple,3,9%
+dvd,11,21%
+jacket,20,21%
+book,6,9%
