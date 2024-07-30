@@ -3,6 +3,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def memory(num_pairs):
+    """memory function calculates the (optimal?) number of turns needed to solve the game 'memory'.
+    Assumption made is perfect memory (i.e. once a 'tile' has been turned, you will always remember what
+    was beneath it). Game is solved by turning the first unturned 'tile' and choosing the second one if it has
+    already been turned (remember perfect memory) or also turning the next 'tile' if the first tile was the first
+    of the pair.
+
+    Args:
+        num_pairs (int): number of pairs in the game. Code will generate the random sequence of 'tiles'.
+
+    Returns:
+        turns (int): number of turns needed to solve the game.
+    """
     all_numbers = list(range(1,num_pairs+1))
     all_numbers.extend(all_numbers)
     random.shuffle(all_numbers)
