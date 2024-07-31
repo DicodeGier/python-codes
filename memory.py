@@ -1,6 +1,7 @@
 import random
 import numpy as np
 import matplotlib.pyplot as plt
+import time
 
 def memory(num_pairs):
     """memory function calculates the (optimal?) number of turns needed to solve the game 'memory'.
@@ -49,15 +50,18 @@ def memory(num_pairs):
     return turns
 
 if __name__ == "__main__":
-    max_pairs = 10
-    max_sim = 1000
+    max_pairs = 100
+    max_sim = 100
     average_turns = []
+    start_time = time.time()
     for i in range(2,max_pairs+1):
         total_turns = 0
         for j in range(max_sim):
             total_turns += memory(i)
+        print("simulation for {} pairs completed".format(i),end = "\r")
         average_turns.append(total_turns/max_sim)
-
+    end_time = time.time()
+    print('Time taken:', end_time - start_time)
     x = np.array(range(2,max_pairs+1))
     y = np.array(average_turns)
     slope, intercept = np.polyfit(x, y, 1)
